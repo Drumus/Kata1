@@ -7,6 +7,7 @@ screen_height = 960
 #Colors
 back_color = (200, 200, 200)
 light_gray = pygame.Color('grey12')
+white_color= (250, 250, 250)
 
 pygame.init()
 clock = pygame.time.Clock()
@@ -19,7 +20,7 @@ def mover_rectangulo():
         rectangulo.top += speed
 
 
-def start_bola()
+def start_bola():
     if bola.left + 50 > screen_width:
         bola.top = screen_height // 2
         bola.left = screen_width // 2
